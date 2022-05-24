@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Klee One', cursive;
+	background-image: url('./img/kdot.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 15px 15px;
+	margin-bottom: px;
+}
+
+header input {
+	width: 100%;
+	max-width: 280px;
+	padding: 10px 15px;
+	border: none;
+	outline: none;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 20px 20px 20px 20px;
+	border-bottom: 3px solid green;
+
+	color: #313131;
+	font-size: 20px;
+	font-weight: 300;
+	transition: 0.3s, ease-out;
+}
+
+header button{
+	margin: 0.5em;
+	border-radius: 50%;
+	border: none;
+	height: 44px;
+	width: 44px;
+	outline: none;
+	background-color: #8FBC8F;
+	color: white;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+main {
+	flex: 1 1 100%;
+	padding: 25px 25px 50px;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.location .city {
+	color: #FFF;
+	font-size: 32px;
+	font-weight: 800;
+	margin-bottom: 5px;
+}
+
+.location .date {
+
+	color: #FFF;
+	font-size: 16px;
+}
+
+.state .temp {
+	color: #FFF;
+	font-size: 102px;
+	font-weight: 900;
+	margin: 30px 0px;
+	text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+	font-family: 'Permanent Marker', cursive;
+}
+
+.state .temp span {
+	font-weight: 500;
+}
+
+.state .weather {
+	color: #FFF;
+	font-size: 32px;
+	font-weight: 700;
+	font-style: italic;
+	margin-bottom: 15px;
+	text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+
+}
+
+.state .range {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 500;
+	text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
